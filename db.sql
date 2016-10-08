@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS novel DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE IF NOT EXISTS `novel` DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
-USE novel ;
+USE `novel` ;
 
 CREATE TABLE IF NOT EXISTS `novel_info` ( 
   `novel_id` int(11) NOT NULL AUTO_INCREMENT,
